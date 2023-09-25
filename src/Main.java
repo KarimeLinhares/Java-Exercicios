@@ -37,5 +37,27 @@ public class Main {
 
         double areaTrapezio = Quadrilatero2.area(7, 8, 9);
         System.out.println("A área do trapézio é: " + areaTrapezio);
+
+        //Fluxos
+        System.out.println("\nExercicio de Condicional Simples");
+        double valoresAtuais = CaixaEletronico.operacao(25, 17);
+        System.out.println("O seu saldo atual é de: R$ " + valoresAtuais );
+
+        System.out.println("\nExercicio de Condicional Composta");
+        MediaEscolar.media(6);
+
+        System.out.println("\nExercicio de Condicional Encadeada");
+        MediaEscolar2.media(6);
+
+        System.out.println("\nExercício Condicional Ternária");
+        MediaEscolar3.media(6);
+
+        System.out.println("\nExercício de Switch Case");
+        SistemaMedidas.medida("P");
+        SistemaMedidas.medida("M");
+        SistemaMedidas.medida("G");
+        SistemaMedidas.medida("XG");
+        SistemaMedidas.medida("A");
+
     }
 }
