@@ -59,5 +59,19 @@ public class Main {
         SistemaMedidas.medida("XG");
         SistemaMedidas.medida("A");
 
+        System.out.println("\nExercícios de laço de repetição: FOR");
+        ContarCarneirinhos.carneirinhos();
+        System.out.println("\nlista de alunos:");
+        ListaAlunos.alunos();
+        System.out.println("\nlista 2 de alunos:");
+        ListaAlunos2.alunos();
+        System.out.println("\nContador:");
+        Contador.numero();
+
+        System.out.println("\nExercício de laço de repetição: While");
+        ComprarDoces.mesada();
+
+        System.out.println("\nExercício de laço de repetição: DoWhile");
+        LigarAmigo.discar();
     }
 }
