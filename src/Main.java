@@ -59,6 +59,7 @@ public class Main {
         SistemaMedidas.medida("XG");
         SistemaMedidas.medida("A");
 
+        //Laços de repetição
         System.out.println("\nExercícios de laço de repetição: FOR");
         ContarCarneirinhos.carneirinhos();
         System.out.println("\nlista de alunos:");
@@ -73,5 +74,15 @@ public class Main {
 
         System.out.println("\nExercício de laço de repetição: DoWhile");
         LigarAmigo.discar();
+
+        //Exceções, erros e tratamentos
+        System.out.println("\nExercício de Tratamento e Exceções: Try/Catch");
+        /*
+        DadosPessoais.scanner();
+         */
+
+        System.out.println("\nExercício de Tratamento e Exceções: Hierarquia e customizações");
+        Convertendo.valor();
+        ValidacaoCep.formatar();
     }
 }
